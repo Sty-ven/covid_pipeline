@@ -4,12 +4,15 @@ import pandas as pd
 
 print(sys.argv)
 
-python sample.py \
+python sample.py \  #created a branch called covid_class
+
   --user=root \
   --password=root \
   --host=localhost \
   --port=5432 \
   --db=covid_db \
   --table_name=covid_data \
-  --url="https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/01-01-2021.csv" 
+
+  --url="https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/01-01-2021.csv"
+
 this is a test session
