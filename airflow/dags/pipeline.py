@@ -4,7 +4,7 @@ import pandas as pd
 
 print(sys.argv)
 
-python sample.py \
+python sample.py \  #created a branch called covid_class
   --user=root \
   --password=root \
   --host=localhost \
